@@ -1,0 +1,189 @@
+:root{
+    --naviBlue:#0F2656;
+    --skyblue:#008AFF;
+    --tomato:#F15767;
+    --yello:#FFF7E8;
+    --green:#EBF9F4;
+    --orange:#FDEBED;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+/* body style  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--naviBlue);
+}
+img{
+    width: 100%;
+}
+/* header start  */
+header{
+    padding: 10px 0 7px;
+    border-bottom: 2px solid #EEF0F3;
+}
+.HeaderWrapper {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 5px solid black; */
+}
+
+.logo {
+    width: 7%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 40%;
+    float: right;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{ 
+    float: left;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--naviBlue);
+    font-size: 1.1rem;
+    margin: 0 18px;
+    display: inline-block;
+    transition: .3s;
+}
+.navbar ul li:last-child a{
+    margin-right: 0;
+}
+.navbar ul li a:hover{
+    color: var(--skyblue);
+}
+
+/* header end  */
+/* banner start  */
+.banner {
+    padding: 3rem 0;
+}
+
+ .bannerWrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.banner .bannerWrapper .bannerContent {
+    text-align: center;
+}
+.banner .bannerWrapper .bannerContent h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+.banner .bannerWrapper .bannerContent h1 span {
+   color: var(--skyblue);
+}
+.banner .bannerWrapper .bannerContent p {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin: 1.8rem 0;
+}
+
+.banner .bannerWrapper .banner_img {
+    width: 80%;
+    margin: 0 auto;
+}
+.banner .bannerWrapper .banner_img img {
+    width: 100%;
+}
+/* banner end  */
+
+/* achivment start  */
+.overflow-h{
+    overflow: hidden;
+}
+.achivment{
+    padding: 15px 0;
+}
+.left{
+    width: 49%;
+    float: left;
+    text-align: end;
+    
+}
+.left h2{
+    font-size: 4rem;
+    color: var(--tomato);
+    margin-bottom: 0;
+}
+.left p{
+    font-size: 1.4rem;
+}
+.right{
+    width: 47%;
+    float: right;
+    
+}
+.right h1{
+    font-size: 4rem;
+}
+/* achivment end */
+
+/* service start  */
+.service{
+    padding: 2rem 0;
+}
+.card{
+    float: left;
+    width: 30%;
+    margin: 0 25px;
+    padding: 2.2rem 0;
+}
+.bg-orng{
+    background: var(--orange);
+}
+.bg-green{
+    background: var(--green);
+}
+.bg-yellow{
+    background: var(--yello);
+}
+.card .card-content{
+    padding: 0 2.2rem;
+}
+/* service end  */
+/* footer start  */
+footer{
+    background: var(--skyblue);
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    color: rgba(255, 255, 255, .5);
+}
+footer p strong{
+    color: white;
+}
+/* footer end  */
